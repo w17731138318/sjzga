@@ -1,7 +1,7 @@
 # 后台管理系统
 
 > A Vue.js project
-
+> 一个Vue.js后台管理系统 代码习惯采用的是java习惯
 ## Build Setup
 
 ``` bash

@@ -5,9 +5,10 @@
 </template>
 
 <script>
+
 import HelloWorld from 'components/HelloWorld'
 import Login from 'components/commons/login/Login'
-
+import {BASE_API, GET_TOKEN, SET_TOKEN, REMOVE_TOKEN} from 'utils/Constant'
 export default {
   name: 'app',
    components: {
@@ -17,12 +18,14 @@ export default {
   data () {
     return {
     }
+  },
+  created () {
+  },
+  methods: {
+    
   }
 }
 </script>
 
 <style>
-.main{
-  background: cadetblue
-}
 </style>
